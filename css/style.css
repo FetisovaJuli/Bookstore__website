@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-links li {
+    padding-left: 40px;
+}
+
+.navbar-links__item {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(112, 65, 22, 1);
+}
+
+.header__divider {
+    height: 300px;
+    background-image: url(../img/Книжный3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-main-info__text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-main-info__text-image img {
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.section-main-info-text {
+    text-indent: 2px;
+    text-align: justify;
+    padding: 50px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.main__title {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-popular-books {
+    text-align: center;
+}
+
+.carousel img {
+    border-radius: 25px;
+}
+.carousel-inner-book{
+    width: 300px;
+    height: 400px;
+}
+
+.section-book-description__info {
+    display: flex;
+    align-items: start;
+    margin-top: 50px;
+}
+
+.section-book-descroption__info-text {
+    margin-left: 100px;
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+}
+
+
+#slider img {
+    width: 200px;
+    height: 300px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 400px;
+}
+
+.card {
+    padding: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+.catalog-gl{
+    display: flex;
+}
+
+
+.section-cataloge__new-books-price {
+    text-align: center;
+}
+
+.button-open {
+    text-decoration: none;
+    background-color: rgba(112, 65, 22, 1);
+    color: white;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.section-cataloge__new-books__item {
+    text-align: center;
+    margin-left: 1000px;
+}
+
+.section-cataloge__new-books__item img {
+    width: 150px;
+    height: 200px;
+}
+
+.section-cataloge__new-books2__item {
+    text-align: center;
+}
+
+.section-cataloge__new-books2__item img {
+    width: 150px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-open__login-or-register {
+    text-decoration: none;
+    background-color: #EFE3C8(112, 65, 22, 1);
+    color: #4A2B29;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Login-or-Registration__divider {
+    background-image: url(../img/Фон.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Registration___divider {
+    background-image: url(../img/Фон.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.Login__divider {
+    background-image: url(../img/Фон.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flexА;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.textregistration__Login-or-Registration {
+    text-align: center;
+    text-decoration: none;
+    color: #EFE3C8;
+
+}
+
+.textregistration__Login {
+    text-align: center;
+    text-decoration: none;
+    color: #EFE3C8;
+}
+
+.textregistration__Registration {
+    text-align: center;
+    text-decoration: none;
+    color: #EFE3C8;
+}
+
+
+
+.error {
+    background-image: url(../img/Ошибка.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textregistration__error {
+    text-align: center;
+    text-decoration: none;
+    color: #EFE3C8;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.error-ups{
+    margin-left: 350px;
+}
+.footer-block{
+    margin-left: 330px;
+}
+.Distance__logo {
+    width: 200px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+.lklfklfk{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.book-carousel{
+    width: 350px;
+    height: 300px;
+}
+
+
+.logo-link {
+   margin-left: 45px;
+   margin-top:45px;
+
+}
